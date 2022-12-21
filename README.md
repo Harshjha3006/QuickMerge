@@ -1,2 +1,2 @@
-# PdfMerger-Website
-This is a website which merges different pdfs
+QuickMerge 
+a website for Merging pdfs
