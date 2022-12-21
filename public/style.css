@@ -1,0 +1,117 @@
+.navbar::before{
+    content : '';
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    z-index : -1;
+    opacity:0.9;
+    background :url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 1540px 792px;
+}
+input[type = "submit"]{
+    display:none;
+}
+
+.nav-list{
+    list-style : none;
+    display : flex;
+    justify-content : space-between;
+    padding-left: 0px;
+}
+.nav-item{
+    margin-left : 0px;
+    margin-top : 0px;
+    padding : 5px;
+    color : blue;
+    font-weight : bold;
+    font-size : 31px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item::before{
+    content : '';
+    background-image: url('pdf icon.png');
+    background-size : 47px 49px;
+    display: inline-block;
+    width: 41px; 
+    height: 35px;
+    margin:3px;
+    background-repeat: no-repeat;
+}
+.navbar{
+
+    margin:0px;
+}
+.header{
+    padding : 20px;
+    margin : 50px auto;
+    height:189px;
+    width:50%;
+}
+.title{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    height: 36px;
+    font-weight:bold;
+    font-family:'Poppins','sans-serif';
+    font-size:2rem;
+
+}
+input[type = "file"]{
+    display:none;
+}
+.upload-container{
+    display:flex;
+    justify-content: center;
+    margin: 54px;
+    padding-left:83px;
+    flex-direction:column;
+    align-items : center;
+}
+.upload{
+    cursor:pointer;
+    border: 1px solid #ccc;
+    background-color: rgb(237, 122, 122);
+    color:black;
+    display: flex;
+    align-items:center;
+   justify-content: center;
+    width: 231px;
+    text-align: center;
+    height: 56px;
+    font-weight: bold;
+    font-family:'Poppins','sans-serif';
+    margin-right: 82px;
+
+}
+.upload:hover{
+    background-color:red;
+}
+.Merge{
+    cursor:pointer;
+    border: 1px solid #ccc;
+    background-color: rgb(237, 122, 122);
+    color:black;
+    display: flex;
+    align-items:center;
+   justify-content: center;
+    width: 147px;
+    text-align: center;
+    height: 56px;
+    font-weight: bold;
+    font-family:'Poppins','sans-serif';
+    margin-right: 82px;
+    margin-top:25px;
+}
+.Merge:hover{
+    background-color:red;
+}
+.description{
+    font-family:'Roboto','sans-serif';
+    text-align: center;
+    margin-top:8px;
+}
