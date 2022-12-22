@@ -1,2 +1,3 @@
 QuickMerge 
-a website for Merging pdfs
+a website for Merging pdf
+Currently it can merge only 2 pdfs
